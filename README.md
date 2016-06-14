@@ -38,13 +38,13 @@ Run the echo server.
 
 ```
 go get -d github.com/hnakamur/sleuth-echo-example
-(cd $GOPATH/sleuth-echo-example/echo-server && go run main.go &)
+(cd $GOPATH/src/github.com/hnakamur/sleuth-echo-example/echo-server && go run main.go &)
 ```
 
 Run the echo client and see "It works." is printed.
 
 ```
-$ (cd $GOPATH/sleuth-echo-example/echo-client && go run main.go)
+$ (cd $GOPATH/src/github.com/hnakamur/sleuth-echo-example/echo-client && go run main.go)
 It works.
 ```
 
